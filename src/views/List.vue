@@ -303,10 +303,13 @@ onMounted(() => {
         }
         .name {
           margin-left: 12px;
-          align-items: flex-end;
+          align-items: center;
           flex-direction: row;
+          .title {
+            font-size: 14px;
+          }
           .subtitle {
-            margin-bottom: 3px;
+            font-size: 14px;
             margin-left: 8px;
           }
         }
